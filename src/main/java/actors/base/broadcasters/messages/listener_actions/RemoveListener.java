@@ -3,7 +3,7 @@ package actors.base.broadcasters.messages.listener_actions;
 import akka.actor.ActorRef;
 
 /**
- * Created by Alexey on 15.02.2017.
+ * Сообщение о необходимости удаления слушателя из списка слушателей.
  */
 public class RemoveListener extends ListenerAction {
     RemoveListener(ActorRef sender, ActorRef listener) {

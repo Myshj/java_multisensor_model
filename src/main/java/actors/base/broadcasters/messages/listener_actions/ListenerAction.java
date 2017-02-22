@@ -4,7 +4,7 @@ import actors.base.Message;
 import akka.actor.ActorRef;
 
 /**
- * Created by Alexey on 15.02.2017.
+ * Сообщение о действии со слушателем.
  */
 abstract class ListenerAction extends Message {
     private final ActorRef listener;
